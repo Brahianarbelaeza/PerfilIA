@@ -4,14 +4,16 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import java.util.List;
 
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class CvResponse {
-    private String analysis;
-    private List<String> keywords;
-    private CvStructured optimizedCv;
+public class PersonalInfo {
+    private String fullName;
+    private String email;
+    private String phone;
+    private String linkedin;
+    private String location;
 }
+

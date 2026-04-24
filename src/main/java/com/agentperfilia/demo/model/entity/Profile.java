@@ -20,4 +20,9 @@ public class Profile {
     private List<String> skills;
     private List<Project> projects;
     private List<Education> education;
+    private String fullName;
+    private String email;
+    private String phone;
+    private String linkedin;
+    private String address;
 }
